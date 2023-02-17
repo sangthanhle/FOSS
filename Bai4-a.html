@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .display-box {
+        font-family: 'Orbitron', sans-serif;
+        background-color: #dcdbe1;
+        border: solid black 0.5px;
+        color: black;
+        width: 34%;
+        height: 65%;
+    }
+    table{
+        display: flex;
+        justify-content: center;
+        padding: 19px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .input-1{
+        margin-left: 50px;
+    }
+    .input-2{
+        margin-left: 60px;
+    }
+    .input-3{
+        margin-left: 79px;
+    }
+    .btn{
+        text-align: center;
+    }
+</style>
+<body>
+    <table class="display-box">
+        <tr class="title">
+            <td>MÁY TÍNH MẪU 1</td>
+        </tr>
+        <tr>
+            <td>Số thứ nhất: <input type="text"  class="input-1"></td>
+        </tr>
+        <tr>
+            <td>Số thứ hai: <input type="text"  class="input-2"></td>
+        </tr>
+        <tr class="btn">
+            <td>
+                <input type="button" value="Cộng">
+                <input type="button" value="Trừ">
+                <input type="button" value="Nhân">
+                <input type="button" value="Chia">
+            </td>
+        </tr>
+        <tr>
+            <td>Kết quả: <input type="text"  class="input-3"></td>
+        </tr>
+    </table>
+</body>
+</html>
